@@ -1,0 +1,9 @@
+
+# .gitpod.yml
+# Purpose: only expose the port and auto-open the preview tab.
+# You will start the app yourself from the terminal (e.g., `mvn spring-boot:run`).
+
+ports:
+  - port: 8080
+    visibility: public
+    onOpen: open-preview
